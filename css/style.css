@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(17, 17, 17);
+    font-family: 'Commissioner', sans-serif;
+}
+
+.headtitle{
+    padding: 20px;
+}
+
+.headtitle__logo{
+    color: rgb(191, 0, 0);
+font-size: 50px;
+}
+
+.about{
+    height: 100vh;
+    margin: 20px;
+    text-align: center;
+}
+
+.about__maintext{
+    margin-top: 20vh;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.about__try{
+text-decoration: none;
+color: rgb(197, 0, 0);
+padding: 10px;
+border: 1px rgb(192, 0, 0) solid;
+}
+
+.about__try__row{
+    width: 15px;
+}
+
+.footer{
+    padding: 15px;
+    color: White;
+}
+
+.center{
+    text-align: center;
+}
+
+.upper{
+    margin-top: 40px;
+}
+
+.info{
+    padding: 15px;
+    border: 1px rgb(54, 88, 255) solid;
+    width: 400px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    color: rgb(54, 88, 255);
+}
+
+.info__img{
+    width: 30px;
+}
+
+.info__title{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.login{
+    background-color: rgba(255, 0, 0, 0.096);
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    color: White;
+    font-size: 25px;
+}
+
+.login .inp{
+    background-color: rgba(0, 0, 0, 0);
+    border: rgb(207, 0, 0) 1px solid;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: White;
+}
+
+.login__btn{
+    background-color: rgb(207, 0, 0);
+    border: rgb(207, 0, 0) 1px solid;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: White;
+    cursor: pointer;
+}
+
+.login__forget{
+    color: Red;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+input{
+    outline: none;
+}
+
+.titlewhite{
+    color: White;
+}
